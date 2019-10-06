@@ -1,4 +1,4 @@
-package com.example.SpringBootApp.SpringBootApp;
+package com.example.SpringBootApp.SpringBootApp.helloworld;
 
 public class HelloWorldBean {
 
