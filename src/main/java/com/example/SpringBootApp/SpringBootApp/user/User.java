@@ -1,13 +1,17 @@
 package com.example.SpringBootApp.SpringBootApp.user;
 
 
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 public class User {
 
 
+    @Size(min = 2)
     private String name;
     private Integer id;
+    @Past
     private Date birthDate;
 
     public User(String name, Integer id, Date birthDate) {
